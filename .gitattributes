@@ -5,6 +5,7 @@ Assets/* linguist-language=C#
 # Unity specific files
 Assets/* linguist-vendored=false
 *.shader linguist-vendored=true
+*.hlsl linguist-vendored=true
 *.hlsl filter=lfs diff=lfs merge=lfs -text
 *.shader filter=lfs diff=lfs merge=lfs -text
 

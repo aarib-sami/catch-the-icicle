@@ -5,3 +5,7 @@ Assets/* linguist-language=C#
 Assets/* linguist-language=Unity
 Assets/* linguist-vendored=false
 *.shader linguist-vendored=true
+# Ignore HLSL files
+*.hlsl
+*.shader
+

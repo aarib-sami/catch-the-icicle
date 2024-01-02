@@ -1,14 +1,8 @@
-# Override Linguist language detection for Unity specific files
-Assets/* linguist-language=C#
+# Linguist overrides
 *.cs linguist-language=C#
+*.shader linguist-language=ShaderLab
 
 # Unity specific files
 Assets/* linguist-vendored=false
 *.shader linguist-vendored=true
-*.hlsl linguist-vendored=true
-*.hlsl filter=lfs diff=lfs merge=lfs -text
-*.shader filter=lfs diff=lfs merge=lfs -text
-
-# Ignore HLSL files
-*.hlsl
-*.shader
+*.hlsl linguist-detect=false

@@ -5,7 +5,11 @@ Assets/* linguist-language=C#
 Assets/* linguist-language=Unity
 Assets/* linguist-vendored=false
 *.shader linguist-vendored=true
+*.hlsl filter=lfs diff=lfs merge=lfs -text
+*.shader filter=lfs diff=lfs merge=lfs -text
+
 # Ignore HLSL files
 *.hlsl
 *.shader
+
 

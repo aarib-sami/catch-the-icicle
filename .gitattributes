@@ -1,8 +1,8 @@
 # Linguist overrides
 *.cs linguist-language=C#
 *.shader linguist-language=ShaderLab
+*.hlsl linguist-language=none
 
 # Unity specific files
 Assets/* linguist-vendored=false
 *.shader linguist-vendored=true
-*.hlsl linguist-detect=false
